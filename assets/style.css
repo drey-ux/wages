@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(/assets/bg.png);
+    background-size: cover;
+    background-position: initial;    
+    font-family: monospace;
+    text-align: center;
+    
+}
+.container{
+    width: 40vw;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 60px 30px;
+    border-radius: 10px;
+}
+h1{
+    margin-bottom: 10px;
+}
+.description{
+    line-height: 20px;
+    letter-spacing: 2px;
+}
+  
+input{
+    text-align: center;
+    width: 100px;
+    font-size: 28px;
+}
+  
+#input{
+    font-size: 15px;
+}
+  
+button{
+    margin: 30px auto;
+    padding: 10px 15px;
+    background-color: rgb(31, 100, 31);
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+button:hover{
+    background: rgb(73, 139, 6);
+    color: black;
+}
+#final{
+    font-size: 28px;
+    font-weight: bold;
+}
+
+  
