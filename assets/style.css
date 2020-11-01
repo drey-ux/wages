@@ -57,5 +57,27 @@ button:hover{
     font-size: 28px;
     font-weight: bold;
 }
+@media screen and (max-width: 765px) {
+    .container{
+        width: 80%;
+    }
+}
+@media screen and (max-width: 580px) {
+    .container{
+        width: 80%;
+      
+    }
+    .description{
+        font-size: 12px;
+        padding: 10px;
+        border-radius: 4px;
+    }
+   
+}
+@media screen and (max-width: 471px) {
+    .container{
+        width: 80%;
+    }
 
+}
   
